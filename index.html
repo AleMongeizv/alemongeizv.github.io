@@ -21,16 +21,16 @@
             overflow: hidden;
         }
 
-        header img {
-            width: 50%;
-        }
+       .cabecera foto{
+        background-color: white;
+       }
 
         .navbar {
-            position: absolute;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position:fixed ;
             top: 0;
             left: 0;
             width: 100%;
-            padding: 10px;
             box-sizing: border-box;
             display: flex;
             justify-content: space-around;
@@ -41,10 +41,11 @@
             text-decoration: none;
             padding: 10px;
             display: inline-block;
+            width: 120px;
         }
 
         .navbar a:hover, .dropdown-content a:hover {
-            background-color: rgba(255, 255, 255, 0.2);
+            background-color: black;
         }
 
         .dropdown {
@@ -55,8 +56,9 @@
         .dropdown-content {
             display: none;
             align-content:start;
-            background-color: black;
-            width: 165px;
+            background-color:black ;
+            color: black;
+            width: 140px;
             z-index: 1;
         }
 
@@ -110,13 +112,13 @@
 
     </style>
 </head>
-<body>
+<body font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;>
 
 
 
 <header>
     <div  id="cabecera foto" style="position:static;">
-    <img src="logo cabecera pagina.png" alt="Logo Cabecera Página" >
+    <img src="logo cabecera pagina.png" alt="Logo Cabecera Página" style="height:fit-content;">
 </div>
     <div class="navbar" style="margin-top: 20px;">
         <div class="dropdown">
@@ -136,16 +138,14 @@
                 <a href="./crocs.html">Crocs</a>
             </div>
         </div>
-        <div class="dropdown">
             <a href="./ventas.html">Ventas</a>
-            </div>
-        <a href="./contactanos.html">Contáctanos</a>
+            <a href="./contactanos.html">Contáctanos</a>
     </div>
 </header>
 
 
 
-<div id="pie">
+<div id="pie" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
     
     <div id="metodos" style="margin-top: 5px; margin-bottom: 20px; float: left; width: 33%;">
         <h3>Metodos de pago</h3>
@@ -161,8 +161,13 @@
 
 </div>
 
+<div style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
 <h1>Hot Sales</h1>
 <p>cartas de los productos en tendencia</p>
+</div>
+
+
+
 
 </body>
 </html>
