@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlickThreads - Moda para Todos</title>
+    <link rel="icon" type="image/x-icon" href="./faviconPW.png">
+    <style>
+        body {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            position: relative;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            background-color: black;
+            overflow: hidden;
+        }
+
+        header img {
+            width: 10%;
+            height: 100%;
+            max-height: 175px;
+        }
+
+        .navbar {
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            position:fixed ;
+            top: 0;
+            left: 0;
+            width: 100%;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar a, .dropdown-content a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            display: inline-block;
+            width: 120px;
+        }
+
+        .navbar a:hover, .dropdown-content a:hover {
+            background-color:rgba(79, 79, 79, 0.358) ;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            align-content:start;
+            background-color: black;
+            width: 140px;
+            z-index: 1;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        section {
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        #sobre {
+            margin-top: 5px;
+            margin-bottom: 20px;
+            float: left;
+            width: 33%;
+        }
+
+        #pie {
+                position: fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: black;
+                color: white;
+                text-align: center;
+            }
+
+            #pie img {
+                width: 50%;
+            }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div  id="cabecera foto" style="position:static;">
+            <a href="index.html">
+            <img src="logo cabecera pagina.png" alt="Logo Cabecera Página" style="height:fit-content;">
+        </a>
+        </div>
+        <div class="navbar" style="margin-top: 20px;">
+            <div class="dropdown">
+                <a href="#">Ropa</a>
+                <div class="dropdown-content">
+                    <a href="./camisetas.html">Camisetas</a>
+                    <a href="./sudaderas.html">Sudaderas</a>
+                    <a href="./pantalones.html">Pantalones</a>
+                    <a href="./chaquetones.html">Chaquetones</a>
+                </div>
+            </div>
+            <div class="dropdown">
+                <a href="#">Calzado</a>
+                <div class="dropdown-content">
+                    <a href="./zapatillas.html">Zapatillas</a>
+                    <a href="./slides.html">Slides</a>
+                    <a href="./crocs.html">Crocs</a>
+                </div>
+            </div>
+                <a href="./ventas.html">Ventas</a>
+                <a href="./contactanos.html">Contáctanos</a>
+        </div>
+    </header>
+
+    <section>
+        <h2>Sobre SlickThreads</h2>
+        <p>
+            En el bullicioso mundo de la moda streetwear, nació una idea revolucionaria en la mente de un joven estudiante.
+            Harto de pagar precios abusivos por prendas de reventa en tiendas físicas, decidió crear un espacio donde
+            todos pudieran acceder a la moda hype sin pagar excesivos precios por poder comprar la prenda de ropa en un establecimiento fisico.
+        </p>
+        <p>
+            Por eso en Slick Threads solo aumentamos en un pequeño porcentaje el precio de la ropa que vendemos, para que la moda y ropa cara este un poco mas al alcance de todos los amantes de este maravilloso mundo
+        </p>
+    </section>
+
+    <div id="pie" style="color: white;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+        
+        <div id="metodos" style="margin-top: 5px; margin-bottom: 20px; float: left; width: 33%;">
+            <h3>Metodos de pago</h3>
+            <img src="https://onebytransit.com/img/metodo-de-pagos.svg" height="30px">
+        </div>
+        <div id="sobre" style=" margin-top: 5px; margin-bottom: 20px;float: left; width: 33%;">
+            <h3>Sobre SlickThreads</h3>
+            <p><a href="./politica privacidad.html" style="color: white; text-decoration: none">Politica de Privacidad</a></p>
+            <p><a href="./historia.html" style="color: white; text-decoration: none">Nuestra Historia</a></p>
+        </div>
+        <div id="redes" style=" margin-top: 5px; margin-bottom: 20px;float: left; width: 33%;">
+            <h3>Siguenos</h3>
+            <p><a href="https://www.instagram.com/aleemongee_/"><img src="https://onebytransit.com/img/instagram.svg" style="width: 20px;"></a></p>
+        </div>
+        <div style="margin-top: 200px; text-align: center;">
+        <p>&copy; 2023 SlickThreads</p>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
