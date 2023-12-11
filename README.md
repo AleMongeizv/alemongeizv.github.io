@@ -1,4 +1,4 @@
-# Slick Threads - Tienda de Ropa de Segunda Mano
+# Slick Threads
 
 Slick Threads es una tienda de reventa de ropa que no impone precios abusivos a la ropa por venderse presencialmente
 
